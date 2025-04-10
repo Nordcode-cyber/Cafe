@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.mysql.cj.xdevapi.PreparableStatement;
+//import libreria mysql.cj.xdevapi
 
 import static cafe.conexion.Conexion.getConexion;
 
