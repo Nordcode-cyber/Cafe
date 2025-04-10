@@ -11,7 +11,7 @@ public class Cafe {
     private float cafeina;
     private String notas;
     public Cafe(){
-        
+        //constructor vacio
     }
     public Cafe(int id_cafe){
         this.id_cafe= id_cafe;
