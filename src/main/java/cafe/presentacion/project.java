@@ -1,3 +1,39 @@
+/**
+ * This class represents the main entry point for the Cafe application.
+ * It provides a menu-driven interface for managing coffee products.
+ * The application allows users to list, search, add, modify, and delete coffee products.
+ * 
+ * <p>Features:</p>
+ * <ul>
+ *   <li>List all coffee products</li>
+ *   <li>Search for a coffee product by ID</li>
+ *   <li>Add a new coffee product</li>
+ *   <li>Modify an existing coffee product</li>
+ *   <li>Delete a coffee product</li>
+ *   <li>Exit the application</li>
+ * </ul>
+ * 
+ * <p>Dependencies:</p>
+ * <ul>
+ *   <li>{@code cafe.Datos.CafeDAO}: Handles data access operations for coffee products.</li>
+ *   <li>{@code cafe.Datos.IClienteDAO}: Interface for data access operations.</li>
+ *   <li>{@code cafe.Dominio.Cafe}: Represents the coffee product entity.</li>
+ * </ul>
+ * 
+ * <p>Usage:</p>
+ * Run the application and follow the menu prompts to perform operations on coffee products.
+ * 
+ * <p>Methods:</p>
+ * <ul>
+ *   <li>{@code main(String[] args)}: Entry point of the application.</li>
+ *   <li>{@code proyectapp()}: Initializes the application and handles the main loop.</li>
+ *   <li>{@code mostrarMenu(Scanner entra)}: Displays the menu and retrieves the user's choice.</li>
+ *   <li>{@code ejecutarOpciones(Scanner entra, int opcion, IClienteDAO cafeDao)}: Executes the selected menu option.</li>
+ * </ul>
+ * 
+ * <p>Note:</p>
+ * Ensure that the {@code CafeDAO} and {@code Cafe} classes are properly implemented for the application to function correctly.
+ */
 package cafe.presentacion;
 
 import java.util.Scanner;
