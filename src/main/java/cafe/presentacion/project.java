@@ -78,7 +78,7 @@ public class project {
         switch (opcion) {
             case 1->{
                 //listar cafe
-                 System.out.println("listado de clientes");
+                 System.out.println("listado de productos");
                  var productos = cafeDao.listarProductos();
                  productos.forEach(System.out::println);
                  }
