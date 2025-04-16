@@ -1,16 +1,16 @@
 /**
- * This class represents the main entry point for the Cafe application.
- * It provides a menu-driven interface for managing coffee products.
- * The application allows users to list, search, add, modify, and delete coffee products.
+ * Esta clase representa la entrada manual para Cafe Aplicacionion. 
+ * * provee mediante menu interfaz para manejar los productos de cafe.
+ * La Aplicacionpermite a los usuarios listar, buscar, agregar, modificar, y borrar productos de Cafe.
  * 
  * <p>Features:</p>
  * <ul>
- *   <li>List all coffee products</li>
- *   <li>Search for a coffee product by ID</li>
- *   <li>Add a new coffee product</li>
- *   <li>Modify an existing coffee product</li>
- *   <li>Delete a coffee product</li>
- *   <li>Exit the application</li>
+ *   <li>Listar productos de cafe</li>
+ *   <li>busqueda para un producto de cafe por id</li>
+ *   <li>Agregar producto de cafe</li>
+ *   <li>Modificar un existente producto de cafe</li>
+ *   <li>Borrar producto de cafe</li>
+ *   <li>salir de la applicacion</li>
  * </ul>
  * 
  * <p>Dependencies:</p>
@@ -20,14 +20,14 @@
  *   <li>{@code cafe.Dominio.Cafe}: Represents the coffee product entity.</li>
  * </ul>
  * 
- * <p>Usage:</p>
- * Run the application and follow the menu prompts to perform operations on coffee products.
+ * <p>Uso:</p>
+ * Ejecute la aplicación y siga las indicaciones del menú para realizar operaciones con los productos de café.
  * 
- * <p>Methods:</p>
+ * <p>Metodos:</p>
  * <ul>
- *   <li>{@code main(String[] args)}: Entry point of the application.</li>
- *   <li>{@code proyectapp()}: Initializes the application and handles the main loop.</li>
- *   <li>{@code mostrarMenu(Scanner entra)}: Displays the menu and retrieves the user's choice.</li>
+ *   <li>{@code main(String[] args)}: punto de entrada a la Aplicacion.</li>
+ *   <li>{@code proyectapp()}: Inicializa la aplicación y gestiona el bucle principal.</li>
+ *   <li>{@code mostrarMenu(Scanner entra)}:Mostrar el  menu y recupera las pciones al usuario.</li>
  *   <li>{@code ejecutarOpciones(Scanner entra, int opcion, IClienteDAO cafeDao)}: Executes the selected menu option.</li>
  * </ul>
  * 
